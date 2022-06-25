@@ -1,10 +1,8 @@
 # This is repository for a signal-based surveillance method
 
 Required 
- 1. DL
-   - Python 3, Keras
- 2. MIMO localization
    - Matlab
+   - - Communications/Propagation and Channel Models toolbox
    
 How to build building structure
    1. Build the structure for the complex/building in RayTracing/CCU.csv 
