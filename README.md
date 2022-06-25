@@ -2,7 +2,7 @@
 
 Required 
    - Matlab
-   - - Communications/Propagation and Channel Models toolbox
+   - Communications/Propagation and Channel Models toolbox
    
 How to build building structure
    1. Build the structure for the complex/building in RayTracing/CCU.csv 
