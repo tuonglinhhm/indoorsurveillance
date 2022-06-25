@@ -8,6 +8,7 @@ How to build building structure
    1. Build the structure for the complex/building in RayTracing/CCU.csv 
    
    (Each wall represented by two rows of data 1) [Xstart, Ystart, Zstart]; 2) [Xend, Yend, Zend]
+   
    2. Set the routes of the target in RayTracing/main.m in the variable Tx.xyz.  
    
 How to run the simulation
