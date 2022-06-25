@@ -111,7 +111,7 @@ for l=1:L
 end
 
 % compute position: 
-posTx_hat = distances(mini)*[cos(AOD_hat(mini)) sin(AOD_hat(mini))]';           % eq (61)
+posTx_hat = ukf(distances(mini)*[cos(AOD_hat(mini)) sin(AOD_hat(mini))]');           % eq (61)
 alpha_hat= mod(AOD_hat(mini)-AOA_hat(mini)-pi,pi);
 localizationError = norm(posTx_hat-posTx)                                       % in meters
 orientationError = norm(alpha_hat-alpha)                                        % in rad
