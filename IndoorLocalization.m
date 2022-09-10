@@ -3,7 +3,7 @@ N = 3;  % number of anchors
 M = 5;  % number of users
 
 % distance dependent err SNR
-distMeasurementErrRatio = 0.1;  % it means that the accuracy of distance measurement is 90 %
+distMeasurementErrRatio = 0.15;  % it means that the accuracy of distance measurement is 90 %
 								% for instance the inaccuracy of a 1m measured distance
 								% is around .1 meter.
 
