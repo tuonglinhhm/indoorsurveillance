@@ -60,7 +60,7 @@ FPSLRefLoss = 0;
 
 
 antennaGainRes = 40;
-antennaEffiLoss = -11.5;         % dB antenna efficiency, missmatch and loss all together
+antennaEffiLoss = -11.15;         % dB antenna efficiency, missmatch and loss all together
 
 ceilingEnable = 0; % Allowing to define ceiling and floor
 groundLevel = 0;
