@@ -18,7 +18,7 @@ Ts=1/Rs;            % sampling period in us
 posTx=[5 200]';      % TX (user) position + 300m for fake, RX is assumed to be in [0, 0] 
 velocityTx = 20;     % Velocity of TX
 alpha=0.45;           % user orientation
-sigma=0.1;          % noise standard deviation
+sigma=0.15;          % noise standard deviation
 step = 1;
 
 
