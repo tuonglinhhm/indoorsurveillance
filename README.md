@@ -1,5 +1,7 @@
 # This is repository for a signal-based surveillance method
 
+![DCNN model](dcnn-model.png)
+
 ## Required 
    - Matlab 2021b
    - Communications/Propagation and Channel Models toolbox
