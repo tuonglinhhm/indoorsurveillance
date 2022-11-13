@@ -43,11 +43,13 @@ train_ADP, test_ADP, train_Loc, test_Loc = get_data()
 with tf.device("gpu:0"):
     NN_model = Sequential()
 # The Input Layer :
-    NN_model.add(Conv2D(4, (16,16), padding='same', kernel_initializer='normal',input_shape = (32,32,1), activation='relu'))
+    NN_model.add(Conv2D(1, (64,64), padding='same', kernel_initializer='normal',input_shape = (64,64,1), activation='relu'))
     NN_model.add(BatchNormalization())
     NN_model.add(MaxPool2D(pool_size=(2, 2)))
 
 # The Hidden Layers :
+    NN_model.add(Conv2D(4, (16,16), padding='same', kernel_initializer='normal', activation='relu'))
+    NN_model.add(BatchNormalization())
     NN_model.add(Conv2D(8, (8,8), padding='same', kernel_initializer='normal', activation='relu'))
     NN_model.add(BatchNormalization())
     NN_model.add(MaxPool2D(pool_size=(2, 2)))
